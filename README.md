@@ -11,3 +11,6 @@ So I do exactly the same thing to the Amazon-3M dataset:
 What I should do next:
   - I should use the preprocessed data to actually train a model so that I can check if it really boosts performance. I did try for a bit, but I lack of experiences to deal with such a huge dataset,
   so I faced some difficulty. Then I decided to stop right here and make a report before I move forward.
+
+Processed dataset link below:
+https://drive.google.com/file/d/16ZsWrxQ2WePclLuERhmieWIpG4zTntZg/view?usp=drive_link
