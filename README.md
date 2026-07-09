@@ -6,7 +6,7 @@ What LIBSVM did to the AmazonCat-13K dataset:
 So I do exactly the same thing to the Amazon-3M dataset:
   - First run compare_files.py to check if instances aren't missing. I remove all spaces and \t from each instance and check if the two strings are the same.
   - Second run preprocess_Amazon-3M.py. It's modified from Amazon-670K_code. I removed the scraper part, it's broken anyway.
-  - Lastly run tfidf_Amazon-3M.py to vectorize with the configuration as we did for AmazonCat-13K and Amazon-670K.
+  - Lastly run tfidf_Amazon-3M.py to vectorize with the configuration as we did for AmazonCat-13K and Amazon-670K. Volab is obtained from The Extreme Classification Repository's BoW features file.
 
 What I should do next:
   - I should use the preprocessed data to actually train a model so that I can check if it really boosts performance. I did try for a bit, but I lack of experiences to deal with such a huge dataset,
